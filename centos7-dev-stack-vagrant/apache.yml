@@ -1,0 +1,7 @@
+---
+- hosts: all
+  vars_files:
+    - roles/apache/vars/main.yml
+  become: true
+  roles:
+    - { role: apache }
