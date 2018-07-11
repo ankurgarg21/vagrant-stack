@@ -1,3 +1,7 @@
 ---
+- include: htop.yml
 - include: apache.yml
 - include: docker-ce.yml
+- include: tomcat.yml
+- include: java.yml
+- include: jenkins.yml

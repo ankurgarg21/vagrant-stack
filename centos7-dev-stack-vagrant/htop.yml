@@ -1,0 +1,8 @@
+---
+- name: install_htop.yml
+  hosts: all
+  gather_facts: yes
+  become: yes
+
+  roles:
+    - htop
